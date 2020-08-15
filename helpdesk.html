@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Help Desk</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style type="text/css">
+
+
+  body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+
+  h1 {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #00b1ff;
+    text-align: left;
+    margin-left: 16.7%;
+    padding-top: 2%;
+
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #FFF1E3;
+
+    padding: 15px 0 20px 0;
+
+  }
+
+  p {
+    color: #474747;
+  }
+
+
+
+  hr {
+    border: dotted #01AADB 6px;
+    border-bottom: none;
+    width: 50%;
+  }
+
+
+    .new-picture  {
+        background-image: url("blue-2863550.svg");
+        height: 457px;
+
+      }
+
+
+
+  /* Headings */
+
+
+
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .section-paragraph {
+  color: #fff;
+	font-size: 1.5rem;
+  }
+
+  /* Containers */
+
+  .container-fluid{
+    padding: 0 15%;
+
+  }
+
+  .padding-row{
+    padding-top: 1%;
+  }
+
+  .container-price{
+    padding: 5% 15% 3% 15%;
+  	margin: auto;
+  }
+
+  /* Sections */
+
+  .colored-section {
+    background-color: #00112f;
+    color: #fff;
+  }
+
+  .colored-section2 {
+    background-color: #005687;
+
+    color: #fff;
+  }
+
+  .white-section {
+    background-color: #fff;
+  }
+
+  /* Navigation Bar */
+
+  .navbar {
+    padding: 0 0 1rem;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-color {
+    color: #00b1ff !important;
+  }
+
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+
+  }
+
+  .black-link {
+    text-decoration: none !important;
+    color: #555;
+
+  }
+
+  .black-link:hover {
+    color: #fff;
+  }
+
+
+  .white-link {
+    text-decoration: none !important;
+    color: #fff;
+
+  }
+
+  .white-link:hover {
+    color: #555;
+  }
+
+  /* Buttons */
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+    text-decoration: none;
+  }
+
+
+  .btn-new {
+    margin: 1% 3% 5% 0;
+  }
+
+  .btn-new2 {
+    margin: 3% 3% 14% 3%;
+  }
+
+  /* Title Section */
+
+  #title {
+    background-color: #00112f;
+    color: #fff;
+    text-align: left;
+  }
+
+  #title .container-fluid {
+    padding: 1% 15% 0 16.7%;
+  }
+
+  .title-section {
+    height: 2px;
+    background-color: #fff;
+  }
+
+
+  /* Title Image */
+
+  .title-image {
+    width: 90%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+  }
+
+  /* Features Section */
+
+  #kontakt {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .feature-box {
+    padding: 4.5%;
+  }
+
+  .features-section	{
+
+    margin-left: auto;
+
+  }
+
+  .features-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+  }
+
+
+  .features-row-2 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+  }
+
+
+  .features-img {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+
+  }
+
+  .features-img-new {
+	width: 40%;
+	height: auto;
+
+
+  }
+
+  .new-h2 {
+    font-size: 2rem;
+  }
+
+
+   .features-new {
+    text-align: left;
+	padding: 0 24%;
+  }
+
+	.row-new {
+	 text-align: left;
+	 margin-top: 3%;
+  }
+
+
+
+  .price-text {
+    font-size: 1.9rem;
+    line-height: 1.5;
+	color: #01abdf;
+  }
+
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+  .title-raiseticket {
+    height: 4 0px;
+    background-color: #00020a;
+  }
+
+
+  /* Footer Section */
+  #footer{
+
+    padding-bottom: 3%;
+    padding-top: 5%;
+
+
+  }
+
+
+
+  .footer-paragraph{
+
+    color: #fff;
+    margin-top: 60px;
+  }
+
+  .footer-image{
+
+    margin-right: 40px;
+
+  }
+
+
+  .footer-margin{
+
+    margin-right: 40px;
+
+  }
+
+    .holder {
+        display: inline;
+
+      }
+
+      .holder2 {
+        display: inline;
+
+      }
+
+
+      .holder img {
+        max-height: 48px;
+        object-fit: cover;
+      }
+
+
+      .holder2 img {
+        max-height: 50px;
+        object-fit: cover;
+      }
+
+
+
+
+  </style>
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Help Desk</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link nav-color" href="#raiseaticket" title="Nowe zgłoszenie">Nowe zgłoszenie</a>
+            </li>
+
+			 <li class="nav-item">
+              <a class="nav-link" href="https://www.898.tv/6xg5wk5" title="TeamViewer">TeamViewer</a>
+            </li>
+
+			   <li class="nav-item">
+              <a class="nav-link" href="http://helpdesk.wup.gdansk.pl/pliki" title="Nagrania">Nagrania</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#kontakt" title="Kontakt">Kontakt</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </nav>
+
+
+   
+
+      </div>
+
+	</section>
+
+
+  <div class="title-section">
+    <p>&nbsp;</p>
+  </div>
+
+  <div class="new-picture">
+    <h1>Portal wsparcia technicznego <br />  WUP w Gdańsku </h1>
+  </div>
+
+
+<div class="title-raiseticket">
+    <p>&nbsp;</p>
+  </div>
+
+<section class="white-section" id="raiseaticket">
+
+    <div class="container-price">
+
+
+
+
+      <div class="row">
+
+        <div class="col-lg-6">
+			<img class="features-img-new" src="https://porp.pl/uploads/original/042020/22/fbea09d1e5_raiseaticketlogo.jpg" alt="Raiseaticket" />
+			<h2 >Raiseaticket</h2>
+
+			<button class="btn btn-lg btn-outline-dark download-button btn-new2" type="button" ><i class="fab fa-google-play"></i><a class="black-link" href="https://wupgdansk.raiseaticket.com/support/#/newticket" title="Nowe zgłoszenie"> Nowe zgłoszenie</a></button>
+        </div>
+
+        <div class="col-lg-6 row-new">
+			<ol>
+		<li>Kliknij NOWE ZGŁOSZENIE, aby przejść do formularza
+		<ol type="a">
+		<li>podaj twój mail, do którego masz dostęp,</li>
+		<li>podaj temat (Subject),</li>
+		<li>opisz twój problem (Description)</li>
+		<li>w opisie podaj również swój numer telefonu.</li>
+		</ol>
+		</li>
+		<br />
+		<li>Na wybrany przez ciebie mail otrzymasz informację o zarejestrowaniu zgłoszenia, a w kolejnych mailach, informacje o osobie do kontaktu <br />oraz o statusie twojego zgłoszenia.<br /><br /></li>
+		</ol>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+<section class="colored-section2" id="kontakt">
+
+  <div class="container-fluid">
+
+
+
+  <h3><strong>000&nbsp;000&nbsp;000</strong>&nbsp;&ndash;&nbsp;Lorem&nbsp;Ipsum<br /><strong>000&nbsp;000&nbsp;000</strong>&nbsp;&ndash;&nbsp;Lorem&nbsp;Ipsum <br /><strong>000&nbsp;000&nbsp;000</strong>&nbsp;&ndash;&nbsp;Lorem&nbsp;Ipsum<br /></h3>
+
+
+	</div>
+
+
+
+</section>
+
+
+  <footer class="colored-section" id="footer">
+
+
+
+
+      <div class="holder">
+         <img class="footer-image" src="https://porp.pl/uploads/original/042020/22/ed707a6535_logo-wup.png" alt="Logo Wojewódzkiego Urzędu Pracy w Gdańsku">
+      </div>
+
+
+      <div class="holder2">
+        <img src="https://porp.pl/uploads/original/042020/22/6dd498d7d4_logo-jswp.png" alt="Logo Jednostki Samorządu Województwa Pomorskiego">
+      </div>
+
+
+		<p class="footer-paragraph">© Copyright 2020 WUP w Gdańsku</p>
+
+
+
+  </footer>
+
+<script src="https://skrypt-cookies.pl/id/6edd2366ec02cba6.js"></script>
+
+</body>
+
+</html>
